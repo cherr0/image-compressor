@@ -1,0 +1,38 @@
+{
+  "compression": {
+    "defaultQuality": 80,
+    "defaultFormat": "auto",
+    "removeMetadata": false,
+    "preserveStructure": true
+  },
+  "formats": {
+    "jpeg": {
+      "quality": 80,
+      "mozjpeg": true,
+      "progressive": true
+    },
+    "png": {
+      "quality": 80,
+      "compressionLevel": 9
+    },
+    "webp": {
+      "quality": 85,
+      "lossless": false
+    }
+  },
+  "resize": {
+    "fit": "inside",
+    "withoutEnlargement": true,
+    "background": { "r": 255, "g": 255, "b": 255, "alpha": 1 }
+  },
+  "output": {
+    "defaultPath": "./compressed",
+    "overwrite": false,
+    "createSubdirectories": true
+  },
+  "logging": {
+    "level": "info",
+    "showProgress": true,
+    "showStats": true
+  }
+} 

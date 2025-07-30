@@ -1,0 +1,39 @@
+{
+  "name": "image-compressor",
+  "version": "1.0.0",
+  "description": "이미지 일괄 압축 및 경량화 도구",
+  "main": "index.js",
+  "bin": {
+    "image-compressor": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "node test.js",
+    "example": "node examples/example-usage.js",
+    "auto": "node index.js",
+    "compress": "node index.js compress",
+    "interactive": "node interactive.js",
+    "setup": "node setup.js"
+  },
+  "keywords": ["image", "compression", "optimization", "batch"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "sharp": "^0.33.0",
+    "imagemin": "^8.0.1",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-pngquant": "^9.0.2",
+    "imagemin-webp": "^8.0.0",
+    "fs-extra": "^11.2.0",
+    "glob": "^10.3.10",
+    "commander": "^11.1.0",
+    "ora": "^7.0.1",
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.12"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "type": "module"
+} 
